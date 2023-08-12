@@ -1,7 +1,5 @@
-#!/bin/bash
-
-FT_LINE1=1
-FT_LINE2=15
+FT_LINE1=2
+FT_LINE2=5
 
 cat /etc/passwd | \
   sed '/^#/d' | \
